@@ -5,7 +5,7 @@
 .grid {
   @extend %clearfix;
   @extend .centered;
-  width: 90%;
+  width: 1170px;
  
   // Make nested grid 100%
   [class*="grid__col--"] > & {
@@ -16,4 +16,10 @@
   @include mq(large) {
     max-width: $g-cont-max-w;
   }
+}
+
+.grid-fluid {
+  @extend %clearfix;
+  @extend .centered;
+  width: 100%;
 }
