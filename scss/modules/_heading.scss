@@ -3,5 +3,19 @@
 // ==========================================================================
 
 .heading {
+	padding-top: em(90px);
+	text-transform: capitalize;
 	@extend %center-align;
+	
+	@include e(hdln) {
+		@include m("" + white) {
+			color: $white;
+		}
+	}
+
+	@include e(desc) {
+		@include m("" + yellow) {
+			color: $broom;
+		}
+	}
 }
