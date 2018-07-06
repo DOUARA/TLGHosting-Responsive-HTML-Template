@@ -8,7 +8,7 @@
 }
 
 body {
-	color: palette(grey);
+  color: $dark-grey;
   font-size: $base__font-size;
   font-family: $font-family--primary;
   line-height: ($base__line/$base__font-size);
@@ -31,7 +31,7 @@ h3 {
 h4 {
 	margin-top: em(22px, 14px);
 	margin-bottom: em(32px, 14px);
-	color: palette(grey, x-light);
+	color: $dark-grey;
 	text-transform: uppercase;
 	letter-spacing: $letter-space;
 	font-weight: $font-weight--medium;
@@ -39,7 +39,7 @@ h4 {
 }
 
 a {
-	color: palette(grey, dark); 
+	color: $dark-grey; 
 	text-decoration: none;
 	font-weight: $font-weight--medium;
 }
@@ -55,7 +55,6 @@ blockquote {
 	@media (min-width: 769px) {
 		margin: em(32px, 24px) 0;
 		padding: 0 0 0 5%;
-		border-left: em(8px, 24px) solid palette(grey, xx-light); 
 		font-size: em(24px);
 	}
 	font-weight: $font-weight--light;
