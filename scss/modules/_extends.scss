@@ -85,3 +85,30 @@
 	line-height: 0;
 	cursor: pointer;
 }
+
+// Feature
+
+%feature {
+  width:100%;
+  display:flex;
+  flex-wrap:nowrap;
+  margin-bottom:15px;
+}
+
+%feature-title {
+  display:block;
+  font-size: em(18px);
+  font-weight: $font-weight--bold;
+  text-transform: capitalize; 
+}
+
+%feature-icon {
+  background:$gray-lightest;
+  border-radius:$br--round;
+  min-width: em(89px);
+  width: em(89px);
+  height: em(89px);
+  text-align: center;
+  margin-right: em(20px);
+  padding-top: em(20px);
+}
