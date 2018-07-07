@@ -3,7 +3,7 @@
 // ==========================================================================
 
 .nav {
-	margin-top: em(20px);
+	margin-top: em(25px);
 	margin-bottom: em(30px);
   
   @include e(item) {
@@ -16,11 +16,12 @@
       }
     }
     
-    @include m(current) {
+    @include m(btn) {
       @extend %nav-item-horz;
+
       a {
         @extend %nav-item-link;
-        @extend %nav-item-on;
+        @extend %nav-item-btn;
       }    
     }
     
