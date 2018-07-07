@@ -3,7 +3,16 @@
 // ==========================================================================
 
 .btn {
+  @extend %btn;
 	@include bg-colors($ui-colors);
+  
+  @include m(lg) {
+    width: 211px;
+  }
+  
+  @include m(sm) {
+    width: 119px;
+  }
 }
 
 [class^="btn--"] {
@@ -16,6 +25,5 @@
   @include mq(medium) { 
     width: auto;
     display: inline-block;
-    @include doubly(20px);
   }
 }
