@@ -7,25 +7,37 @@
 %nav-item-horz {
   @include mq(medium) {
     display: inline-block;
-    margin: 0 em(6px);
+    margin: 0 em(5px);
   }
 }
 
 %nav-item-link {
-  color:$color-secondary;
-  font-weight: $font-weight--bold;
-  text-align: center;
-  font-size: em(14px);
-  display: block;
-  padding: em(2px, 14px);
-  text-transform: uppercase;
-  border-bottom: 1px solid transparent;
+    color: $color-secondary;
+    font-weight: $font-weight--bold;
+    text-align: center;
+    font-size: em(14px);
+    display: block;
+    padding: em(0px, 14px);
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
   @include mq(small) {
     padding-top: em(14px, 18px);
     padding-bottom: em(14px, 18px);
   }
 }
-
+%nav-item-btn {
+  color: $white;
+  background: $color-primary;
+  border-radius: $br--default;
+  padding: em(10px) em(27px);
+  font-weight: $font-weight--light;
+   &:hover {
+    opacity: .75;
+  }
+  &:active {
+    opacity: initial;
+  }
+}
 %nav-item-on {
   color: $black;
   border-color: $color-primary;
@@ -51,15 +63,14 @@
 // Buttons
 
 %btn {
-  padding: 15px 30px;
   border: 0;
-  border-radius : $br--default;
+  border-radius: $br--default;
   color: $white;
   text-transform: uppercase;
-  font-size : em(14px);
-  font-weight: $font-weight--medium;
+  font-size: em(20px);
+  font-weight: $font-weight--light;
   transition: opacity $trns-duration;
-  display: block;
+  padding: em(11px) em(0px);
   &:hover {
     opacity: .75;
   }
