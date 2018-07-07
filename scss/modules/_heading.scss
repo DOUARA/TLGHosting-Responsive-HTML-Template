@@ -10,12 +10,15 @@
 	@include e(hdln) {
 		@include m("" + white) {
 			color: $white;
+			font-size: em(50px);
 		}
 	}
 
 	@include e(desc) {
 		@include m("" + yellow) {
 			color: $broom;
+			font-size: em(27px);
+			font-weight: $font-weight--bold;
 		}
 	}
 }

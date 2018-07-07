@@ -45,19 +45,18 @@ $color-shadow    : rgba($black, .2);
 // UI Colors
 
 $ui-colors: (
-	primary   : $color-primary,
-	secondary : $cloud-burst
+	primary   : $color-primary
 );
 
 // Text
 
 $base__font-size : 16px;
 $base__line      : 28px;
-$letter-space    : 1px;
+$letter-space    : 0px;
 
 // Border radius
 
-$br--default    : .6em;
+$br--default    : .625em;
 $br--round      : 50%;
 
 // Transitions
@@ -70,10 +69,10 @@ $path--rel      : "../img";
 
 // Grid
 
-$g-col-width    : 65px;
+$g-col-width    : 70px;
 $g-gutter-width : 30px;
 $g-col-count    : 12;
-$g-cont-max-w   : 1050px;
+$g-cont-max-w   : 1170px;
 
 // Breakpoints
 
