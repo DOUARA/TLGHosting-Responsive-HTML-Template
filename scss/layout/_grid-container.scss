@@ -6,6 +6,7 @@
   @extend %clearfix;
   @extend .centered;
   width: 1170px;
+  max-width:100%;
  
   // Make nested grid 100%
   [class*="grid__col--"] > & {
@@ -22,4 +23,5 @@
   @extend %clearfix;
   @extend .centered;
   width: 100%;
+
 }
