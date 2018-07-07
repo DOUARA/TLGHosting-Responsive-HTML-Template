@@ -10,6 +10,9 @@
 	@include e(hdln) {
 		@include m("" + white) {
 			color: $white;
+		}
+		@include m(lg-white) {
+			color: $white;
 			font-size: em(50px);
 		}
 	}
@@ -19,6 +22,9 @@
 			color: $broom;
 			font-size: em(27px);
 			font-weight: $font-weight--bold;
+		}
+		@include m("" + white) {
+			color: $white;
 		}
 	}
 }
