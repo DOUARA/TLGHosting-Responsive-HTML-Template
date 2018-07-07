@@ -2,5 +2,8 @@
 // Hero section
 // ==========================================================================
 .hero {
+	@extend %center-align;
 	@include img-replace("hero-bg.jpg", 100%, 100% );
+	padding-top: em(20px);
+	padding-bottom: em(120px);
 }
