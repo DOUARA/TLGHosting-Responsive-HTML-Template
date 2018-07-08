@@ -59,6 +59,9 @@ $letter-space    : 0px;
 $br--default    : .625em;
 $br--round      : 50%;
 
+$br--top        : .625em .625em 0 0;
+$br--btm        : 0 0 .625em .625em;
+
 // Transitions
 
 $trns-duration  : .3s;
