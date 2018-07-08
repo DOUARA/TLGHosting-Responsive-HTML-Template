@@ -5,13 +5,17 @@
 .btn {
   @extend %btn;
 	@include bg-colors($ui-colors);
-  
+    
+  @include m(sm) {
+    width: 119px;
+  }
+
   @include m(lg) {
     width: 211px;
   }
-  
-  @include m(sm) {
-    width: 119px;
+
+  @include m(fluid) {
+    width: 100%;
   }
 }
 
