@@ -112,3 +112,38 @@
   margin-right: em(20px);
   padding-top: em(20px);
 }
+
+// Plan 
+%plan {
+  max-width: 100%;
+}
+
+%plan-heading {
+  padding: em(25px) em(50px);
+  color:$white;
+  h1 {
+    color:$white;
+    margin-bottom: 14px;
+  }
+  border-radius: $br--top;
+}
+
+%plan-body {
+  padding: em(30px) em(45px);
+  font-size: em(18px);
+  background:$white;
+  ul  {
+    li {
+      padding: 10px 0;
+      @include img-replace("divider.png", 100%, auto, inline-block, bottom);
+    }
+  }
+}
+
+%plan-footer {
+  background:$white;
+  border-radius: $br--btm;
+  padding-right: em(45px);
+  padding-left: em(45px);
+  padding-bottom: em(20px);
+}
