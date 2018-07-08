@@ -1,0 +1,30 @@
+// ==========================================================================
+// Plan
+// ==========================================================================
+
+.plan {
+	@extend %plan;
+	@include e(heading) {
+		@extend %plan-heading;
+
+		@include m(default) {
+			@extend %plan-heading;
+			background:$color-primary;
+		}
+
+		@include m("" + blue) {
+			@extend %plan-heading;
+			background:$dodger-blue;
+		}
+
+	}
+
+	@include e(body) {
+		@extend %plan-body;
+	}
+
+
+	@include e(footer) {
+		@extend %plan-footer;
+	}
+}
