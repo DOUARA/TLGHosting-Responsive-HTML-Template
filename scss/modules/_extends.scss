@@ -114,6 +114,7 @@
 }
 
 // Plan 
+
 %plan {
   max-width: 100%;
 }
@@ -150,4 +151,35 @@
   padding-right: em(45px);
   padding-left: em(45px);
   padding-bottom: em(20px);
+}
+
+// Special plan
+
+%special-plan {
+  background:$white;
+  margin: em(30px) 0;
+  border-top:6px solid $color-primary;
+  border-radius:$br--default;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+%special-plan-content {
+  max-width:870px;
+  padding:0 em(50px); 
+  h2 {
+    color: $color-secondary;
+    font-weight:$font-weight--bold;
+    margin-bottom:0;
+  } 
+  span {
+    font-weight:$font-weight--light;
+    color:$gray;
+  }
+}
+%special-plan-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width:250px;
 }
