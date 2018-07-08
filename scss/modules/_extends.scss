@@ -119,23 +119,27 @@
 }
 
 %plan-heading {
-  padding: em(25px) em(50px);
+  font-weight: $font-weight--light;
+  padding: em(25px) em(35px);
   color:$white;
+  border-radius: $br--top;
+  text-transform:capitalize;
+  font-size: em(16px);
   h1 {
     color:$white;
     margin-bottom: 14px;
   }
-  border-radius: $br--top;
 }
 
 %plan-body {
-  padding: em(30px) em(45px);
+  padding: em(30px) em(35px);
   font-size: em(18px);
   background:$white;
   ul  {
     li {
       padding: 10px 0;
-      @include img-replace("divider.png", 100%, auto, inline-block, bottom);
+      text-transform:capitalize;
+      @include img-replace("divider.png", 100%, auto, inline-block, bottom, 100%);
     }
   }
 }

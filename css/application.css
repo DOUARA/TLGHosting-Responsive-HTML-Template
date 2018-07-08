@@ -439,7 +439,7 @@ header {
   height: 100%;
   display: block;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   padding-top: 1.25em;
   padding-bottom: 3em;
 }
@@ -462,7 +462,7 @@ header {
   height: 100%;
   display: block;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
 }
 
 @media (min-width: 769px) {
@@ -576,23 +576,26 @@ header {
 }
 
 .plan__heading--blue, .plan__heading--default, .plan__heading {
-  padding: 1.5625em 3.125em;
+  font-weight: 300;
+  padding: 1.5625em 2.1875em;
   color: #fff;
   border-radius: 0.625em 0.625em 0 0;
+  text-transform: capitalize;
+  font-size: 1em;
 }
 .plan__heading--blue h1, .plan__heading--default h1, .plan__heading h1 {
   color: #fff;
-  margin-bottom: 0px;
   margin-bottom: 14px;
 }
 
 .plan__body {
-  padding: 1.875em 2.8125em;
+  padding: 1.875em 2.1875em;
   font-size: 1.125em;
   background: #fff;
 }
 .plan__body ul li {
   padding: 10px 0;
+  text-transform: capitalize;
   background-image: url("../img/divider.png");
   background-repeat: no-repeat;
   width: 100%;
@@ -713,7 +716,7 @@ header {
   height: 39px;
   display: inline-block;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .icn--nav-toggle {
