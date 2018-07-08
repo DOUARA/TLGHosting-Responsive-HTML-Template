@@ -69,13 +69,14 @@
 
 // Image replacement
 
-@mixin img-replace($img, $w, $h,$disp: block, $bp: center) {
+@mixin img-replace($img, $w, $h,$disp: block, $bp: center, $bs: 100%) {
 	background-image: url('#{$path--rel}/#{$img}');
 	background-repeat: no-repeat;
 	width: $w;
 	height: $h;
 	display: $disp;
   background-position: $bp;
+  background-size: $bs;
 }
       
 // Adjacent sibling margins
