@@ -439,17 +439,30 @@ header {
   height: 100%;
   display: block;
   background-position: center;
+  background-size: 100%;
   padding-top: 1.25em;
   padding-bottom: 3em;
 }
 
 .separator {
+  margin-bottom: 2.5em;
   background-image: url("../img/lines.png");
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
   display: inline-block;
   background-position: center;
+  background-size: 100%;
+}
+
+.plans {
+  background-image: url("../img/plans-bg.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-position: center;
+  background-size: 100%;
 }
 
 @media (min-width: 769px) {
@@ -558,6 +571,45 @@ header {
   padding-top: 1.25em;
 }
 
+.plan {
+  max-width: 100%;
+}
+
+.plan__heading--blue, .plan__heading--default, .plan__heading {
+  padding: 1.5625em 3.125em;
+  color: #fff;
+  border-radius: 0.625em 0.625em 0 0;
+}
+.plan__heading--blue h1, .plan__heading--default h1, .plan__heading h1 {
+  color: #fff;
+  margin-bottom: 0px;
+  margin-bottom: 14px;
+}
+
+.plan__body {
+  padding: 1.875em 2.8125em;
+  font-size: 1.125em;
+  background: #fff;
+}
+.plan__body ul li {
+  padding: 10px 0;
+  background-image: url("../img/divider.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+.plan__footer {
+  background: #fff;
+  border-radius: 0 0 0.625em 0.625em;
+  padding-right: 2.8125em;
+  padding-left: 2.8125em;
+  padding-bottom: 1.25em;
+}
+
 .img--wrap {
   border: 1px solid palette(grey, x-light);
   padding: 0.75em;
@@ -612,11 +664,14 @@ header {
 .btn--primary {
   background-color: #fb4f1b;
 }
+.btn--sm {
+  width: 119px;
+}
 .btn--lg {
   width: 211px;
 }
-.btn--sm {
-  width: 119px;
+.btn--fluid {
+  width: 100%;
 }
 
 [class^=btn--] {
@@ -658,6 +713,7 @@ header {
   height: 39px;
   display: inline-block;
   background-position: center;
+  background-size: 100%;
 }
 
 .icn--nav-toggle {
@@ -684,6 +740,9 @@ header {
 }
 .heading__hdln--white {
   color: #fff;
+}
+.heading__hdln--lg-white {
+  color: #fff;
   font-size: 3.125em;
 }
 .heading__desc--yellow {
@@ -691,7 +750,16 @@ header {
   font-size: 1.6875em;
   font-weight: 700;
 }
+.heading__desc--white {
+  color: #fff;
+}
 
+.plan__heading--default {
+  background: #fb4f1b;
+}
+.plan__heading--blue {
+  background: #1b94fb;
+}
 @media (min-width: 1px) and (max-width: 768px) {
   .is-displayed-mobile {
     display: block;
