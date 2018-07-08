@@ -1,0 +1,16 @@
+// ==========================================================================
+// Special plan
+// ==========================================================================
+
+.special-plan {
+	@extend %special-plan;
+
+	@include e(content) {
+		@extend %special-plan-content;
+	}
+
+	@include e(btn) {
+		@extend %special-plan-btn;
+	}
+	
+}
