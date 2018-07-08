@@ -613,6 +613,36 @@ header {
   padding-bottom: 1.25em;
 }
 
+.special-plan {
+  background: #fff;
+  margin: 1.875em 0;
+  border-top: 6px solid #fb4f1b;
+  border-radius: 0.625em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.special-plan__content {
+  max-width: 870px;
+  padding: 0 3.125em;
+}
+.special-plan__content h2 {
+  color: #1f3244;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.special-plan__content span {
+  font-weight: 300;
+  color: #666666;
+}
+
+.special-plan__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 250px;
+}
+
 .img--wrap {
   border: 1px solid palette(grey, x-light);
   padding: 0.75em;
