@@ -1,0 +1,24 @@
+// ==========================================================================
+// Testimonial
+// ==========================================================================
+
+.testimonial {
+	@extend %testimonial;
+
+	@include e(img) {
+		@extend %testimonial-img;
+	}
+
+	@include e(title) {
+		@extend %testimonial-title;
+	}
+
+	@include e(subtitle) {
+		@extend %testimonial-subtitle;
+	}
+
+	@include e(excerpt) {
+		@extend %testimonial-excerpt
+	}
+
+}
