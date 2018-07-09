@@ -18,6 +18,7 @@
 	}
 
 	@include e(desc) {
+		font-size: em(18px);
 		@include m("" + yellow) {
 			color: $broom;
 			font-size: em(27px);
