@@ -243,3 +243,14 @@
     color:#e0e0e0;
   }
 }
+
+// Brand
+
+%brand {
+  border:1px solid $grey-light;
+  width:170px;
+  height:116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
