@@ -470,6 +470,18 @@ header {
   margin-top: 1.875em;
 }
 
+.domain-search {
+  background-image: url("../img/domain-search-bg.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  margin-top: 6.5625em;
+  padding-bottom: 3.75em;
+}
+
 @media (min-width: 769px) {
   .nav__item--btn, .nav__item {
     display: inline-block;
@@ -732,6 +744,34 @@ header {
   display: block;
   margin-bottom: 0.625em;
 }
+.form__checkboxGroup {
+  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  align-items: start;
+  margin-bottom: 1.25em;
+}
+.form__checkboxInput {
+  display: none;
+}
+.form__checkboxInput:checked + label .form__customCheckbox {
+  background-image: url("../img/check.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-position: center;
+  background-size: 15px 15px;
+}
+.form__customCheckbox {
+  margin-right: 10px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
 .form__input {
   font-size: 1.125em;
   margin-bottom: 1.1111111111em;
@@ -852,6 +892,25 @@ header {
 }
 .brand__img {
   margin-bottom: 0;
+}
+
+.domain-search-form__input {
+  margin-right: 1.875em;
+  max-width: 801px;
+  border-radius: 0.625em;
+  display: inline-block;
+  font-size: 1.125em;
+  padding: 1.1875em;
+}
+
+.checkboxes {
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  margin-top: 2.1875em;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 700px;
 }
 
 @media (min-width: 1px) and (max-width: 768px) {

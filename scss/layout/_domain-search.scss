@@ -1,0 +1,9 @@
+// ==========================================================================
+// Domain-search section
+// ==========================================================================
+
+.domain-search {
+	@include img-replace("domain-search-bg.jpg", 100%, 100%, inline-block);
+	margin-top: em(105px);
+	padding-bottom: em(60px);
+}

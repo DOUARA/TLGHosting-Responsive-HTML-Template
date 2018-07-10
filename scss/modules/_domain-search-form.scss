@@ -1,0 +1,14 @@
+// ==========================================================================
+// domain search form
+// ==========================================================================
+
+.domain-search-form {
+	@include e(input) {
+		margin-right: em(30px);
+		max-width: 801px;
+		border-radius: $br--default;
+		display:inline-block;
+		font-size: em(18px);
+		padding: em(19px);
+	}
+}
