@@ -14,9 +14,11 @@
 	@include e(checkboxGroup) {
 		text-transform: uppercase;
 		color:$white;
-		display: flex;
-		align-items:start;
 		margin-bottom: em(20px);
+		label {
+			display: flex;
+			align-items:center;
+		}
 
 	}	
 
