@@ -1,0 +1,10 @@
+// ==========================================================================
+// Copyrights section
+// ==========================================================================
+.copyright {
+	margin-top:60px;
+	padding:30px;
+	background:$black;
+	color: $white;
+	@extend %center-align;
+}

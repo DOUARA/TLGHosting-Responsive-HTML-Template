@@ -71,10 +71,18 @@
 		display:flex;
 		align-items:center;
 		justify-content: flex-end;
+
+		@include m(button) {
+			display:flex;
+			align-items:center;
+			justify-content: flex-start;
+			margin-left: em(100px);
+		}
 	}
 
 	@include e(input) {
 		max-width:450px;
+		width:100%;
 		display:inline-block;
 		margin:20px;
 		border-radius:$br--default;
@@ -94,4 +102,6 @@
 		display:inline-block;
 		text-transform: capitalize;
 	}
+
+
 }

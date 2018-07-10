@@ -13,6 +13,7 @@
 // Column styles
 
 [class^="grid__col--"] {
+  position:relative;
   @include mq(small)  {
     margin-top: em(12px);
     margin-bottom: em(12px);

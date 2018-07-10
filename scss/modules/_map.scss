@@ -1,0 +1,22 @@
+// ==========================================================================
+// Map
+// ==========================================================================
+
+.map-block {
+	position:relative;
+	@include e(map) {
+		border-radius: $br--default;
+		position:absolute;
+		top: 0;
+	    right: 0;
+	    width: 570px;
+	    max-width:100%;
+	    height: 280px;
+	}
+
+	@include e(address) {
+		color:$white;
+		position: absolute;
+    	top: 280px;
+	}
+}

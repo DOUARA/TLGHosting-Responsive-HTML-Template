@@ -423,9 +423,11 @@
       </div>
       <div class="grid">
         <div class="grid__col--6">
-          <div class="map">
-            
+          <div class="map-block">
+            <div class="map-block__map" id="map"></div>
+            <span class="map-block__address">London Eye, London, UK</span>
           </div>
+          
         </div>
           <div class="grid__col--6">
             <form action="#" class="contact-form">
@@ -439,18 +441,39 @@
               </div>
               <div class="contact-form__group">
                 <label for="message" class="contact-form__label">message</label>
-                <textarea placeholder="What's this about?" name="message" id="" cols="30" rows="10" class="contact-form__textarea"></textarea><br>
+                <textarea placeholder="What's this about?" name="message" id="" cols="30" rows="10" class="contact-form__textarea"></textarea>
               </div>
-
+              <div class="contact-form__group--button">
+                <button class="btn btn--primary btn--lg">submit</button>
+              </div>
             </form>
           </div>
         </div>
-        <div class="grid">
-        <div class="copyright">
-          Copyright 
-        </div>
+        <div class="grid-fluid">
+          <div class="copyright">
+            Copyright @ 2018. All rights reserved. PSD Design by: <a target="_blank" href="https://thislooksgreat.net/web-hosting-website/"> ThisLooksGreat </a>, Coded by: <a target="_blank" href="http://douara.me"> DOUARA  
+          </div>
       </div>
     </footer>
+    
 
+    <!-- The Map Script -->
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 51.503691, lng: -0.119564},
+          zoom: 14
+        });
+
+        var marker = new google.maps.Marker({
+          position: {lat: 51.503691, lng: -0.119564},
+          map: map,
+          title: 'Hello World!'
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBunq9dcqHV6OajhhVts3YOl21GRkG4TH8&callback=initMap"
+    async defer></script>
   </body>  
 </html>
