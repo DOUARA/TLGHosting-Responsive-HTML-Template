@@ -7,7 +7,7 @@
 %nav-item-horz {
   @include mq(medium) {
     display: inline-block;
-    margin: 0 em(5px);
+    margin: 0 em(12px);
   }
 }
 
@@ -49,8 +49,8 @@
   color: $dark-grey;
   font-weight: $font-weight--light;
   font-size: em(40px);
-  line-height: (24px/40px);
-  margin-top: 0;
+  line-height: 100%;
+  margin: 0;
 }
 %hdln-sec {
   color: $dark-grey;
@@ -78,6 +78,15 @@
     opacity: initial;
   }
 }
+
+// Heading 
+
+%heading-desc {
+  font-size: em(18px);
+  margin-top: em(15px);
+  margin-bottom: em(30px);
+}
+
 
 // Icons
 
@@ -157,7 +166,7 @@
 
 %special-plan {
   background:$white;
-  margin: em(30px) 0;
+  margin-top: em(30px);
   border-top:6px solid $color-primary;
   border-radius:$br--default;
   display:flex;
@@ -253,4 +262,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+// map 
+
+%map-block-map {
+  border-radius: $br--default;
+  position:absolute;
+  top: em(40px);
+  right: 0;
+  width: 570px;
+  max-width:100%;
+  height: 290px;
+}
+
+%map-block-address {
+  color:$white;
+  position: absolute;
+  top: 330px;
 }

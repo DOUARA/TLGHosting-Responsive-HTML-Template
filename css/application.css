@@ -445,11 +445,11 @@ header {
   background-position: center;
   background-size: cover;
   padding-top: 1.25em;
-  padding-bottom: 3em;
+  padding-bottom: 7.5em;
 }
 
 .separator {
-  margin-bottom: 2.5em;
+  margin-bottom: 5em;
   background-image: url("../img/lines.png");
   background-repeat: no-repeat;
   width: 100%;
@@ -467,6 +467,7 @@ header {
   display: block;
   background-position: center;
   background-size: cover;
+  padding-bottom: 5em;
 }
 
 .brands {
@@ -505,7 +506,7 @@ header {
 @media (min-width: 769px) {
   .nav__item--btn, .nav__item {
     display: inline-block;
-    margin: 0 0.3125em;
+    margin: 0 0.75em;
   }
 }
 
@@ -549,8 +550,8 @@ header {
   color: #333333;
   font-weight: 300;
   font-size: 2.5em;
-  line-height: 0.6;
-  margin-top: 0;
+  line-height: 100%;
+  margin: 0;
 }
 
 .headline-secondary--grouped, .headline-secondary, h2 {
@@ -576,6 +577,12 @@ header {
 }
 [class^=btn--]:active, .btn:active, .form__btn:active {
   opacity: initial;
+}
+
+.heading__desc--white, .heading__desc {
+  font-size: 1.125em;
+  margin-top: 0.9375em;
+  margin-bottom: 1.875em;
 }
 
 .icn--nav-toggle {
@@ -652,7 +659,7 @@ header {
 
 .special-plan {
   background: #fff;
-  margin: 1.875em 0;
+  margin-top: 1.875em;
   border-top: 6px solid #fb4f1b;
   border-radius: 0.625em;
   display: flex;
@@ -744,6 +751,22 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.map-block__map {
+  border-radius: 0.625em;
+  position: absolute;
+  top: 2.5em;
+  right: 0;
+  width: 570px;
+  max-width: 100%;
+  height: 290px;
+}
+
+.map-block__address {
+  color: #fff;
+  position: absolute;
+  top: 330px;
 }
 
 .headline-primary {
@@ -881,8 +904,7 @@ header {
 }
 
 .nav {
-  margin-top: 1.5625em;
-  margin-bottom: 1.875em;
+  margin-top: 1.25em;
 }
 .nav__item a {
   color: palette(grey);
@@ -912,7 +934,7 @@ header {
 }
 
 .logo-container {
-  margin-top: 1.125em;
+  margin-top: 1.25em;
 }
 
 .heading {
@@ -926,13 +948,13 @@ header {
   color: #fff;
   font-size: 3.125em;
 }
-.heading__desc {
-  font-size: 1.125em;
-}
 .heading__desc--yellow {
   color: #ffec1a;
   font-size: 1.6875em;
   font-weight: 700;
+  line-height: 1.5;
+  margin-top: 0.3125em;
+  margin-bottom: 25px;
 }
 .heading__desc--white {
   color: #fff;
@@ -970,21 +992,6 @@ header {
 .map-block {
   position: relative;
 }
-.map-block__map {
-  border-radius: 0.625em;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 570px;
-  max-width: 100%;
-  height: 280px;
-}
-.map-block__address {
-  color: #fff;
-  position: absolute;
-  top: 280px;
-}
-
 @media (min-width: 1px) and (max-width: 768px) {
   .is-displayed-mobile {
     display: block;

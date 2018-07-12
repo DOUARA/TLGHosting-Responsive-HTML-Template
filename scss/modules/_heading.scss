@@ -18,13 +18,18 @@
 	}
 
 	@include e(desc) {
-		font-size: em(18px);
+		@extend %heading-desc;
+
 		@include m("" + yellow) {
 			color: $broom;
 			font-size: em(27px);
 			font-weight: $font-weight--bold;
+			line-height:1.5;
+			margin-top: em(5px);
+			margin-bottom: 25px;
 		}
 		@include m("" + white) {
+			@extend %heading-desc;
 			color: $white;
 		}
 	}

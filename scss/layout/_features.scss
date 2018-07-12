@@ -2,7 +2,7 @@
 // Features section
 // ==========================================================================
 .separator {
-	margin-bottom: em(40px);
+	margin-bottom: em(80px);
 	@extend %center-align;
 	@include img-replace("lines.png", 100%, auto, inline-block, center,100%);
 }
