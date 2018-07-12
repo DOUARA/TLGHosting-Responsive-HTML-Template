@@ -6,9 +6,19 @@
 	position:relative;
 	@include e(map) {
 		@extend %map-block-map;
+		@include mq(small) {
+			flex-wrap:wrap;
+			justify-content: center;
+			top: em(5px);
+		}
 	}
 
 	@include e(address) {
 		@extend %map-block-address;
+		@include mq(small) {
+			flex-wrap:wrap;
+			justify-content: center;
+			top: 300px;
+		}
 	}
 }

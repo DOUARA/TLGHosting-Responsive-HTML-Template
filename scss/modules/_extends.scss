@@ -137,12 +137,11 @@
   font-size: em(16px);
   h1 {
     color:$white;
-    margin-bottom: 14px;
   }
 }
 
 %plan-body {
-  padding: em(30px) em(35px);
+  padding: em(20px) em(35px);
   font-size: em(18px);
   background:$white;
   ul  {
@@ -191,13 +190,15 @@
   align-items: center;
   justify-content: center;
   min-width:250px;
+  margin:auto;
+  margin-bottom:10px;
 }
 
 // Testimonial 
 
 %testimonial {
   border-radius: $br--default;
-  background:#f4f4f4;
+  background: #f4f4f4;
   padding-bottom: em(20px);
 }
 
@@ -268,16 +269,20 @@
 
 %map-block-map {
   border-radius: $br--default;
-  position:absolute;
+  position:relative;
   top: em(40px);
   right: 0;
   width: 570px;
   max-width:100%;
   height: 290px;
+  margin: auto;
 }
 
 %map-block-address {
   color:$white;
   position: absolute;
   top: 330px;
+  @include mq(small) {
+    left: em(80px);
+  }
 }

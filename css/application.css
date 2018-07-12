@@ -362,6 +362,12 @@ header {
   width: 1170px;
   max-width: 100%;
 }
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid {
+    padding: 0 1.25em;
+    margin: auto;
+  }
+}
 [class*=grid__col--] > .grid {
   width: 100%;
 }
@@ -629,11 +635,10 @@ header {
 }
 .plan__heading--blue h1, .plan__heading--default h1, .plan__heading h1 {
   color: #fff;
-  margin-bottom: 14px;
 }
 
 .plan__body {
-  padding: 1.875em 2.1875em;
+  padding: 1.25em 2.1875em;
   font-size: 1.125em;
   background: #fff;
 }
@@ -685,6 +690,8 @@ header {
   align-items: center;
   justify-content: center;
   min-width: 250px;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .testimonial {
@@ -755,18 +762,24 @@ header {
 
 .map-block__map {
   border-radius: 0.625em;
-  position: absolute;
+  position: relative;
   top: 2.5em;
   right: 0;
   width: 570px;
   max-width: 100%;
   height: 290px;
+  margin: auto;
 }
 
 .map-block__address {
   color: #fff;
   position: absolute;
   top: 330px;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .map-block__address {
+    left: 5em;
+  }
 }
 
 .headline-primary {
@@ -795,6 +808,11 @@ header {
 .form__checkboxGroup label {
   display: flex;
   align-items: center;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .form__checkboxGroup label {
+    font-size: 0.75em;
+  }
 }
 .form__checkboxInput {
   display: none;
@@ -844,12 +862,30 @@ header {
   justify-content: flex-start;
   margin-left: 6.25em;
 }
+@media (min-width: 1px) and (max-width: 768px) {
+  .contact-form__group--button {
+    margin-left: 0;
+    margin-top: 10px;
+    justify-content: center;
+  }
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .contact-form__group {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .contact-form__input {
   max-width: 450px;
   width: 100%;
   display: inline-block;
   margin: 20px;
   border-radius: 0.625em;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .contact-form__input {
+    margin: 1px;
+  }
 }
 .contact-form__textarea {
   margin: 20px;
@@ -858,11 +894,28 @@ header {
   height: 85px;
   border-radius: 0.625em;
 }
+@media (min-width: 1px) and (max-width: 768px) {
+  .contact-form__textarea {
+    margin: 1px;
+  }
+}
 .contact-form__label {
   text-align: right;
   color: #fff;
   display: inline-block;
   text-transform: capitalize;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .contact-form__label {
+    display: none;
+  }
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .contact-form {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6.25em;
+  }
 }
 
 .btn--primary {
@@ -966,10 +1019,18 @@ header {
 .plan__heading--blue {
   background: #1b94fb;
 }
+@media (min-width: 1px) and (max-width: 768px) {
+  .brand {
+    width: 100%;
+  }
+}
 .brand__img {
   margin-bottom: 0;
 }
 
+.domain-search-form {
+  text-align: center;
+}
 .domain-search-form__input {
   margin-right: 1.875em;
   max-width: 801px;
@@ -977,6 +1038,7 @@ header {
   display: inline-block;
   font-size: 1.125em;
   padding: 1.1875em;
+  margin-bottom: 5px;
 }
 
 .checkboxes {
@@ -992,6 +1054,21 @@ header {
 .map-block {
   position: relative;
 }
+@media (min-width: 1px) and (max-width: 768px) {
+  .map-block__map {
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 0.3125em;
+  }
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .map-block__address {
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 300px;
+  }
+}
+
 @media (min-width: 1px) and (max-width: 768px) {
   .is-displayed-mobile {
     display: block;
