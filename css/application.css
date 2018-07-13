@@ -678,6 +678,7 @@ header {
   border-radius: 0.625em;
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 10px;
 }
 
 .special-plan__content {
@@ -700,11 +701,6 @@ header {
   justify-content: center;
   min-width: 250px;
   margin: auto;
-}
-@media (min-width: 769px) {
-  .special-plan__btn {
-    margin-bottom: 10px;
-  }
 }
 
 .testimonial {

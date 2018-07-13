@@ -170,6 +170,7 @@
   border-radius:$br--default;
   display:flex;
   flex-wrap:wrap;
+  padding-bottom:10px;
 }
 
 %special-plan-content {
@@ -191,9 +192,8 @@
   justify-content: center;
   min-width:250px;
   margin:auto;
-  @include mq(medium) {
-    margin-bottom:10px;
-  }
+  
+
   
 }
 
