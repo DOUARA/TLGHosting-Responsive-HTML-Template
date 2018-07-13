@@ -4,8 +4,17 @@
 
 .navbar {	
 	position: relative;
-	@include mq(medium) {
-		margin-top: em(54px);
+	
+	@include mq(large) {
+		margin-top: em(20px);
 		margin-bottom: 0;
+	}
+	@include mq(medium) {
+		margin-top: em(20px);
+		margin-bottom: 0;
+	}
+
+	@include mq(small) {
+		background:$white;
 	}
 }

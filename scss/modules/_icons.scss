@@ -17,11 +17,12 @@
 		@extend %icn--ui;
 		width: 25px;
 		height: 17px;
-		border-top: solid 3px palette(grey);
-		border-bottom: solid 3px palette(grey);
+		margin: auto;
+		border-top: solid 3px $gray;
+		border-bottom: solid 3px $gray;
 		position: relative;
 		@include p-el(before, 25px, 3px) {
-			background: palette(grey, light);
+			background: $gray;
 			top: 4px;
 		}
 	}

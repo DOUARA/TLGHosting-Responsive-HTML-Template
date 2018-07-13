@@ -5,3 +5,8 @@
 .footer {
 	@include img-replace("footer-bg.jpg", 100%, 100%);
 }
+
+.resources {
+	background:$broom;
+	@extend %center-align;
+}

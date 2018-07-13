@@ -15,11 +15,11 @@
           </a>
         </div>
         <div class="grid__col--8">
-          <nav>
-            <span>
+          <nav class="navbar" role="navigation">
+            <span id="toggle" class="icn--nav-toggle is-displayed-mobile">
               <b class="srt">Toggle</b>
             </span>
-            <ul class="nav">
+            <ul class="nav is-collapsed-mobile">
               <li class="nav__item"><a href="#">web hosting</a></li>
               <li class="nav__item"><a href="#">domains</a></li>
               <li class="nav__item"><a href="#">web design</a></li>
@@ -457,6 +457,10 @@
           <div class="copyright">
             Copyright @ 2018. All rights reserved. PSD Design by: <a target="_blank" href="https://thislooksgreat.net/web-hosting-website/"> ThisLooksGreat </a>, Coded by: <a target="_blank" href="http://douara.me"> DOUARA  
           </div>
+          <div class="resources">
+            <a href="www.flaticon.com" > www.flaticon.com </a> - all the icons <br>
+            <a href="www.flaticon.com" > www.pixabay.com </a> - all the images
+          </div>
       </div>
     </footer>
     
@@ -479,5 +483,13 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBunq9dcqHV6OajhhVts3YOl21GRkG4TH8&callback=initMap"
     async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      $('#toggle').click(function() {
+          $(this).next('.nav').toggleClass("is-collapsed-mobile");
+      });
+    </script>
+
   </body>  
 </html>
