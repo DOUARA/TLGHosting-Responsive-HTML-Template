@@ -763,6 +763,7 @@ header {
 
 .brand {
   border: 1px solid #c6c6c6;
+  border-radius: 0.625em;
   width: 170px;
   height: 116px;
   display: flex;
