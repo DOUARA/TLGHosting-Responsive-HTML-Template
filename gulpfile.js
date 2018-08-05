@@ -9,6 +9,8 @@ const gulpif     = require('gulp-if');
 const uglify     = require('gulp-uglify');
 const minifyHTML = require('gulp-minify-html');
 const imagemin   = require('gulp-imagemin');
+const imageminMozjpeg = require('imagemin-mozjpeg'); 
+
 
 
 /* Declaring Variables */
@@ -45,9 +47,11 @@ gulp.task('html', function() {
 /* Compressing Images */
 gulp.task('images', function() {
   return gulp.src('builds/development/img/**/*.*')
-    .pipe(gulpif(env === 'production', imagemin({
-      progressive: true
-    })))
+    .pipe(gulpif(env === 'production', imagemin([
+      imageminMozjpeg({
+          quality: 90
+      })
+  ])))
     .pipe(gulpif(env === 'production', gulp.dest(outputDir + '/img')))
     .pipe(connect.reload());
   });
