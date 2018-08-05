@@ -4,7 +4,7 @@
     <title>TLGHosting | Web Hosting Template</title>
     <link rel="icon"  type="image/png"  href="img/icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/application.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <!-- header section --> 
@@ -465,11 +465,21 @@
       </div>
     </footer>
     
-
-    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script>
+      let map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 51.503691, lng: -0.119564},
+          zoom: 14
+        });
+        var marker = new google.maps.Marker({
+          position: {lat: 51.503691, lng: -0.119564},
+          map: map
+        });
+      }
+    </script>
     
-    <script src="js/libs/jquery/jquery-3.3.1.min.js"></script>
-    <script src="js/main.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBunq9dcqHV6OajhhVts3YOl21GRkG4TH8&callback=initMap"
     async defer></script>
 

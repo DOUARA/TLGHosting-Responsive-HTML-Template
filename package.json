@@ -1,0 +1,38 @@
+{
+  "name": "tlghosting",
+  "version": "1.0.0",
+  "description": "TLGHosting is a responsive HTML Template built from scratch using SASS and following [BEM](http://getbem.com/) and [SMACSS](https://smacss.com/) Methodologies,  The PSD Has been designed by [Christian Barin](https://thislooksgreat.net/about-thislooksgreat-barin-cristian-doru/)  and you can find it [here](https://thislooksgreat.net/web-hosting-website/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DOUARA/TLGHosting-Responsive-HTML-Template.git"
+  },
+  "keywords": [
+    "html",
+    "template",
+    "responsive",
+    "hosting"
+  ],
+  "author": "DOUARA Abderrahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DOUARA/TLGHosting-Responsive-HTML-Template/issues"
+  },
+  "homepage": "https://github.com/DOUARA/TLGHosting-Responsive-HTML-Template#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "jquery": "^3.3.1"
+  }
+}
