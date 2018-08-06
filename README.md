@@ -54,7 +54,7 @@ http://localhost:8080/
 
 - **Javascript**: Add your script files on: `components/scripts` then add them to the **jsSources array** in the `gulpfile.js`, gulp will concatenate all the JS files found in this array. 
 
-- The project uses [browserify](http://browserify.org/) to install and bundle dependecies.
+- The project uses [browserify](http://browserify.org/) to install and bundle libraries and frameworks.
 
 # Deployment
 
