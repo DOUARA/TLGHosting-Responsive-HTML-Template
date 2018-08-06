@@ -18,9 +18,9 @@ All the dependencies can be found on ***package.json*** file.
 ## File Structure 
 `
 .
-├── builds<br>
-    ├── developement  
-    ├── production  
+├── builds<br/>
+    ├── developement<br/> 
+    ├── production<br/>  
 `
 - Simply clone the project to your machine and browse to ***index.html***
 - The starter structure and the basic functions and mixins used was taken from the template [Poly](https://github.com/Guilh/Poly). 
