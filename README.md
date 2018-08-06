@@ -4,6 +4,9 @@ TLGHosting is a responsive HTML Template built from scratch using SASS and follo
 The PSD has been designed by [Christian Barin](https://thislooksgreat.net/about-thislooksgreat-barin-cristian-doru/) 
 , you can download it from [here](https://thislooksgreat.net/web-hosting-website/).
 
+# Live Preview 
+Live preview of the project: [here](http://douara.me/portfolio/tlghosting)
+
 # Installation
 
 Gulp is used as task runner for this project, you need **nodeJS** installed on your machine in order to install Gulp and its plugins.
@@ -68,9 +71,9 @@ This will generate an optimized version of the project on the production folder:
 
 ![screen shot 2018-08-06 at 4 43 32 pm](https://user-images.githubusercontent.com/39377174/43726838-271b106e-9998-11e8-9b3e-e2963c1af16c.png)
 
+# Resourses 
+- [planetoftheweb workflows](https://github.com/planetoftheweb/workflows) 
+- [poly](https://github.com/Guilh/poly) 
 
-
-# Live Preview 
-Live preview of the project: [here](http://douara.me/portfolio/tlghosting)
 
 
