@@ -10,7 +10,7 @@ Gulp is used as task runner for this project, you need **nodeJS** installed on y
 1. clone the project to your maching 
 2. from within the project directory run the command 
 `
-npm install 
+npm install  
 ` 
 All the developement and production dependencies can be found on the file ***package.json***
 
@@ -19,8 +19,8 @@ All the developement and production dependencies can be found on the file ***pac
 `
 .
 ├── builds
-    ── developement 
-    __ production 
+    ── developement  
+    __ production  
 `
 - Simply clone the project to your machine and browse to ***index.html***
 - The starter structure and the basic functions and mixins used was taken from the template [Poly](https://github.com/Guilh/Poly). 
