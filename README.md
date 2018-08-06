@@ -17,7 +17,6 @@ npm install
 ```
 All the dependencies can be found on ***package.json*** file.
 
-
 # File Structure
 ```
 .
@@ -40,6 +39,11 @@ All the dependencies can be found on ***package.json*** file.
 ```
 gulp
 ```
+
+> You may face probelms running the gulp command on Windows, you need to install gulp globally by running the command:
+> ``` 
+> npm install -g gulp
+> ```
 
 - You can now preview your changes on the localhost server, the browser will auto-reload whenever you make modifications:
 ```
