@@ -2,25 +2,25 @@
 
 TLGHosting is a responsive HTML Template built from scratch using SASS and following [BEM](http://getbem.com/) and [SMACSS](https://smacss.com/) Methodologies, 
 The PSD Has been designed by [Christian Barin](https://thislooksgreat.net/about-thislooksgreat-barin-cristian-doru/) 
-you can download it from [here](https://thislooksgreat.net/web-hosting-website/).
+,you can download it from [here](https://thislooksgreat.net/web-hosting-website/).
 
 # Installation
 
-Gulp is used as task runner for this project, you need **nodeJS** installed on your machine in order to install all the dependecies.
-1. clone the project to your maching 
-2. from within the project directory run the command 
+Gulp is used as task runner for this project, you need **nodeJS** installed on your machine in order to install Gulp and its plugins.
+1. clone the project to your maching
+2. to install all the developement and production dependencies, from within the project directory run the command: 
 `
 npm install  
 ` 
-All the developement and production dependencies can be found on the file ***package.json***
+All thedependencies can be found on ***package.json*** file
 
 # Usage 
 ## File Structure 
 `
 .
-├── builds
-    ── developement  
-    __ production  
+├── builds<br>
+    ── developement<br> 
+    __ production<br>  
 `
 - Simply clone the project to your machine and browse to ***index.html***
 - The starter structure and the basic functions and mixins used was taken from the template [Poly](https://github.com/Guilh/Poly). 
