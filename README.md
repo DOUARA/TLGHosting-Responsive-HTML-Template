@@ -47,7 +47,8 @@ http://localhost:8080/
 
 - **HTML**: Make your modifications on the file: `builds/developement/index.html`, this file will get minified when you run the gulp command in *the production environment*
 - **CSS**: Any modification in the CSS should be made on the SASS files, found in `components/sass` folder, this Diagram will help you to understand the structure. 
-![diagram](https://user-images.githubusercontent.com/39377174/42687802-e1b53838-8691-11e8-8421-9cb7a05bdf01.jpg)
+![untitled drawing 1](https://user-images.githubusercontent.com/39377174/43728714-dad9723a-999d-11e8-8376-fc09773e01df.jpg)
+
 - **Javascript**: Add your script files on: `components/scripts` then add them to the **jsSources array** in the `gulpfile.js`, gulp will concatenate all the JS files found in this array. 
 
 - The project uses [browserify](http://browserify.org/) to install and bundle dependecies.
