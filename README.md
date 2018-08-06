@@ -40,7 +40,7 @@ All the dependencies can be found on ***package.json*** file.
 gulp
 ```
 
-> You may face probelms running the gulp command on Windows, you need to install gulp globally by running the command:
+> If you are on windows, You may face probelms running the gulp command, you need to install gulp globally by running the command:
 > ``` 
 > npm install -g gulp
 > ```
