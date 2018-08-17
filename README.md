@@ -5,7 +5,7 @@ The PSD has been designed by [Christian Barin](https://thislooksgreat.net/about-
 , you can download it from [here](https://thislooksgreat.net/web-hosting-website/).
 
 # Live Preview 
-Live preview of the project: [here](http://douara.me/portfolio/tlghosting)
+Live preview of the project: [here](http://douara.me/preview/tlghosting)
 
 # Installation
 
